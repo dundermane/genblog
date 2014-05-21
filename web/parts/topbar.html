@@ -1,0 +1,9 @@
+{% if user %}
+	<div id="topBar">
+		<span id="greeting">hello, {{ user.username }}</span>
+		<a href="/logout" id="logout">[logout]</a>
+	</div>
+	<script type="text/javascript">
+		$('#greeting').before($('<a>').attr("style","color: blue;").attr("href","/post").append('New Post'));
+	</script>
+{% endif %}

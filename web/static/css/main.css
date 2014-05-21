@@ -1,0 +1,137 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#container {
+	width: 50em;
+	min-height: 500px;
+	margin: auto;
+}
+
+
+#title {
+	text-align: center;
+	margin: auto;
+}
+
+#title img {
+	height: 100px;
+	width: 100px;
+}
+
+#title h1, img{
+	display: inline;
+	vertical-align: middle;
+}
+#title h1{
+	font-size: 52pt;
+	font-family: "Helvetica", sans-serif;
+	font-style: bold;
+}
+
+#quote-block {
+	width: 40em;
+	margin-left: 18em;
+	text-align: right;
+	font-size: 10pt;
+	font-family: "Garamond",serif;
+}
+
+.quote {
+	font-style: italic;
+	text-align: left;
+}
+.author {
+	font-weight: bold;
+	font-style: italic;
+	text-align: right;
+}
+
+#menu-block {
+	text-align: center;
+}
+
+#menu-block li{
+	display: inline;
+	padding: 0 20px;
+	font-family: "helvetica", sans-serif;
+}
+
+.menu a,a:visited {
+	color: inherit;
+	text-decoration: none;
+}
+
+.menu:hover {
+	background-color: #DDD;
+}
+
+.feed-post {
+	height: 40px;
+}
+
+#topBar {
+	padding: 3px 20px;
+	line-height: 120%;
+	color: white;
+	font-family: "helvetica", sans-serif;
+	text-align: right;
+	background-color: #222;
+	border-radius: 2px;
+}
+
+
+.textbox { 
+	border: 1px dotted #000000; 
+	outline:0; 
+	height: 1em; 
+	width: 50px; 
+} 
+
+footer {
+	text-align: center;
+	font-size: 10pt;
+	font-family: "helvetica",sans-serif;
+}
+
+
